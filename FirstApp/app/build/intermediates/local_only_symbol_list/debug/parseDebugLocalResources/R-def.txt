@@ -1,0 +1,28 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color blue
+color cyan
+color darkgray
+color gray
+color green
+color lightgray
+color magenta
+color red
+color white
+color yellow
+drawable btn
+drawable btn_2
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id btnCool
+id btnHot
+id linearLayout
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.FirstApp
+style Theme.FirstApp
+xml backup_rules
+xml data_extraction_rules

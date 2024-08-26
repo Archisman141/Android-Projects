@@ -1,0 +1,3 @@
+com.example.toastmessage.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme
