@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UserActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="196dp"
+        android:layout_height="196dp"
+        android:src="@drawable/my_picture"
+        app:civ_border_width="2dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="140dp"
+        app:civ_border_color="#FF000000"/>
+
+    <TextView
+        android:id="@+id/tVname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="35dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="cursive"
+        android:textStyle="italic|bold"
+        android:text="Archisman Khanra" />
+
+    <TextView
+        android:id="@+id/tVPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:fontFamily="cursive"
+        android:textSize="25dp"
+        android:textStyle="italic|bold"
+        android:layout_marginTop="20dp"
+        android:text="+91 9088693293" />
+
+</LinearLayout>
